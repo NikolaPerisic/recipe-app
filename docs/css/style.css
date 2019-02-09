@@ -29,14 +29,15 @@ body {
 	cursor: pointer;
 }
 .logo img {
-	padding-top: 0.8rem;
+	padding: 1rem;
 }
 .logo p {
 	font-size: 3rem;
 	vertical-align: middle;
 	padding: 1rem;
+	padding-left: 2rem;
 	color: #e84118;
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .btn,
@@ -281,7 +282,7 @@ body {
 }
 .results__fig :hover {
 	background-color: #f9f5f3;
-	
+
 	transform: scale(1.1);
 	transition: all 0.4s;
 }
@@ -322,7 +323,7 @@ body {
 	font-size: 1.5rem;
 	color: #968b87;
 	text-transform: uppercase;
-	font-weight: 600;
+	font-weight: 500;
 }
 .results__pages,
 .likes__pages {
@@ -393,7 +394,7 @@ body {
 }
 .recipe__info-data {
 	margin-right: 0.4rem;
-	font-weight: 600;
+	font-weight: 500;
 }
 .recipe__info-buttons {
 	display: flex;
@@ -480,7 +481,7 @@ body {
 	margin-bottom: 3rem;
 }
 .recipe__by {
-	font-weight: 700;
+	font-weight: 500;
 }
 
 .shopping {
@@ -558,6 +559,7 @@ body {
 	}
 	.header__logo {
 		margin-left: 0.5rem;
+		margin-bottom: 0.5rem;
 	}
 	.likes__field {
 		padding: 0;
@@ -582,5 +584,17 @@ body {
 	.search,
 	.logo {
 		margin: 0 auto;
+	}
+}
+
+.header__logo {
+	animation: logo-spin infinite 5s linear;
+}
+@keyframes logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
 	}
 }

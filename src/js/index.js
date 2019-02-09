@@ -197,7 +197,7 @@ elements.recipe.addEventListener("click", e => {
 elements.searchResList.addEventListener("click", e => {
 	const link = e.target.closest(".results__link");
 	if (link) {
-		let focus = document.querySelector(".recipe__ingredients");
+		let focus = document.querySelector(".recipe__fig");
 		focus.scrollIntoView();
 	}
 });
